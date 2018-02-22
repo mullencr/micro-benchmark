@@ -1,0 +1,24 @@
+----------------[ Callgrind for function ]---------------------
+==4709== Callgrind, a call-graph generating cache profiler
+==4709== Copyright (C) 2002-2010, and GNU GPL'd, by Josef Weidendorfer et al.
+==4709== Using Valgrind-3.6.1 and LibVEX; rerun with -h for copyright info
+==4709== Command: ./hw3 function 85
+==4709== 
+==4709== For interactive control, run 'callgrind_control -h'.
+==4709== 
+==4709== Events    : Ir
+==4709== Collected : 45436112498
+==4709== 
+==4709== I   refs:      45,436,112,498
+----------------[ Callgrind for lambda ]---------------------
+==5260== Callgrind, a call-graph generating cache profiler
+==5260== Copyright (C) 2002-2010, and GNU GPL'd, by Josef Weidendorfer et al.
+==5260== Using Valgrind-3.6.1 and LibVEX; rerun with -h for copyright info
+==5260== Command: ./hw3 lambda 85
+==5260== 
+==5260== For interactive control, run 'callgrind_control -h'.
+==5260== 
+==5260== Events    : Ir
+==5260== Collected : 27575003223
+==5260== 
+==5260== I   refs:      27,575,003,223

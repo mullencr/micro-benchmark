@@ -1,0 +1,172 @@
+----------------[ Output from perf for function ]---------------------
+
+ Performance counter stats for './hw3 function 85':
+
+      10972.540945      task-clock (msec)         #    1.000 CPUs utilized          
+                34      context-switches          #    0.003 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.117 K/sec                  
+    28,096,393,355      cycles                    #    2.561 GHz                      (83.33%)
+     4,125,568,173      stalled-cycles-frontend   #   14.68% frontend cycles idle     (83.33%)
+     2,871,216,690      stalled-cycles-backend    #   10.22% backend  cycles idle     (66.67%)
+    45,477,621,380      instructions              #    1.62  insns per cycle        
+                                                  #    0.09  stalled cycles per insn  (83.34%)
+    12,811,936,015      branches                  # 1167.636 M/sec                    (83.33%)
+        83,260,006      branch-misses             #    0.65% of all branches          (83.33%)
+
+      10.968768293 seconds time elapsed
+
+
+ Performance counter stats for './hw3 function 85':
+
+      10609.044881      task-clock (msec)         #    1.001 CPUs utilized          
+                16      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.121 K/sec                  
+    28,067,370,837      cycles                    #    2.646 GHz                      (83.33%)
+     4,096,930,356      stalled-cycles-frontend   #   14.60% frontend cycles idle     (83.33%)
+     2,738,296,755      stalled-cycles-backend    #    9.76% backend  cycles idle     (66.66%)
+    45,476,243,922      instructions              #    1.62  insns per cycle        
+                                                  #    0.09  stalled cycles per insn  (83.33%)
+    12,818,899,758      branches                  # 1208.299 M/sec                    (83.34%)
+        83,144,583      branch-misses             #    0.65% of all branches          (83.33%)
+
+      10.601493959 seconds time elapsed
+
+
+ Performance counter stats for './hw3 function 85':
+
+      10616.636317      task-clock (msec)         #    1.001 CPUs utilized          
+                13      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.121 K/sec                  
+    28,090,382,010      cycles                    #    2.646 GHz                      (83.33%)
+     4,128,637,340      stalled-cycles-frontend   #   14.70% frontend cycles idle     (83.33%)
+     2,796,799,741      stalled-cycles-backend    #    9.96% backend  cycles idle     (66.67%)
+    45,468,177,277      instructions              #    1.62  insns per cycle        
+                                                  #    0.09  stalled cycles per insn  (83.33%)
+    12,812,652,495      branches                  # 1206.847 M/sec                    (83.33%)
+        82,625,345      branch-misses             #    0.64% of all branches          (83.34%)
+
+      10.609022863 seconds time elapsed
+
+
+ Performance counter stats for './hw3 function 85':
+
+      10603.531900      task-clock (msec)         #    1.001 CPUs utilized          
+                18      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.121 K/sec                  
+    28,050,896,564      cycles                    #    2.645 GHz                      (83.32%)
+     4,084,766,557      stalled-cycles-frontend   #   14.56% frontend cycles idle     (83.34%)
+     2,807,546,275      stalled-cycles-backend    #   10.01% backend  cycles idle     (66.67%)
+    45,472,110,561      instructions              #    1.62  insns per cycle        
+                                                  #    0.09  stalled cycles per insn  (83.34%)
+    12,812,930,865      branches                  # 1208.364 M/sec                    (83.33%)
+        82,980,956      branch-misses             #    0.65% of all branches          (83.35%)
+
+      10.596293002 seconds time elapsed
+
+
+ Performance counter stats for './hw3 function 85':
+
+      10591.151030      task-clock (msec)         #    1.001 CPUs utilized          
+                20      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.121 K/sec                  
+    28,018,489,082      cycles                    #    2.645 GHz                      (83.33%)
+     4,054,216,747      stalled-cycles-frontend   #   14.47% frontend cycles idle     (83.33%)
+     2,981,049,217      stalled-cycles-backend    #   10.64% backend  cycles idle     (66.66%)
+    45,465,886,825      instructions              #    1.62  insns per cycle        
+                                                  #    0.09  stalled cycles per insn  (83.33%)
+    12,815,079,746      branches                  # 1209.980 M/sec                    (83.34%)
+        83,189,912      branch-misses             #    0.65% of all branches          (83.34%)
+
+      10.583694878 seconds time elapsed
+
+----------------[ Output from perf for lambda ]---------------------
+
+ Performance counter stats for './hw3 lambda 85':
+
+       5430.210229      task-clock (msec)         #    1.001 CPUs utilized          
+                 9      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,283      page-faults               #    0.236 K/sec                  
+    14,364,780,228      cycles                    #    2.645 GHz                      (83.32%)
+     1,311,836,562      stalled-cycles-frontend   #    9.13% frontend cycles idle     (83.34%)
+       890,298,050      stalled-cycles-backend    #    6.20% backend  cycles idle     (66.68%)
+    27,590,683,037      instructions              #    1.92  insns per cycle        
+                                                  #    0.05  stalled cycles per insn  (83.34%)
+     6,726,034,477      branches                  # 1238.632 M/sec                    (83.34%)
+        78,530,307      branch-misses             #    1.17% of all branches          (83.33%)
+
+       5.426671615 seconds time elapsed
+
+
+ Performance counter stats for './hw3 lambda 85':
+
+       5612.541293      task-clock (msec)         #    1.001 CPUs utilized          
+                11      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,282      page-faults               #    0.228 K/sec                  
+    14,378,547,157      cycles                    #    2.562 GHz                      (83.33%)
+     1,325,449,524      stalled-cycles-frontend   #    9.22% frontend cycles idle     (83.33%)
+     1,016,241,977      stalled-cycles-backend    #    7.07% backend  cycles idle     (66.67%)
+    27,594,923,879      instructions              #    1.92  insns per cycle        
+                                                  #    0.05  stalled cycles per insn  (83.34%)
+     6,729,115,915      branches                  # 1198.943 M/sec                    (83.34%)
+        78,776,187      branch-misses             #    1.17% of all branches          (83.33%)
+
+       5.608967705 seconds time elapsed
+
+
+ Performance counter stats for './hw3 lambda 85':
+
+       5608.638898      task-clock (msec)         #    1.001 CPUs utilized          
+                13      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,283      page-faults               #    0.229 K/sec                  
+    14,372,342,267      cycles                    #    2.563 GHz                      (83.33%)
+     1,324,381,027      stalled-cycles-frontend   #    9.21% frontend cycles idle     (83.33%)
+       959,044,800      stalled-cycles-backend    #    6.67% backend  cycles idle     (66.67%)
+    27,600,731,902      instructions              #    1.92  insns per cycle        
+                                                  #    0.05  stalled cycles per insn  (83.33%)
+     6,724,716,929      branches                  # 1198.993 M/sec                    (83.35%)
+        78,263,314      branch-misses             #    1.16% of all branches          (83.33%)
+
+       5.605562448 seconds time elapsed
+
+
+ Performance counter stats for './hw3 lambda 85':
+
+       5622.032720      task-clock (msec)         #    1.001 CPUs utilized          
+                14      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,283      page-faults               #    0.228 K/sec                  
+    14,403,484,718      cycles                    #    2.562 GHz                      (83.34%)
+     1,347,637,868      stalled-cycles-frontend   #    9.36% frontend cycles idle     (83.34%)
+     1,040,253,538      stalled-cycles-backend    #    7.22% backend  cycles idle     (66.66%)
+    27,582,656,351      instructions              #    1.91  insns per cycle        
+                                                  #    0.05  stalled cycles per insn  (83.34%)
+     6,727,357,325      branches                  # 1196.606 M/sec                    (83.33%)
+        78,750,637      branch-misses             #    1.17% of all branches          (83.33%)
+
+       5.618457809 seconds time elapsed
+
+
+ Performance counter stats for './hw3 lambda 85':
+
+       5436.652677      task-clock (msec)         #    1.001 CPUs utilized          
+                 9      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             1,283      page-faults               #    0.236 K/sec                  
+    14,382,203,229      cycles                    #    2.645 GHz                      (83.32%)
+     1,326,080,743      stalled-cycles-frontend   #    9.22% frontend cycles idle     (83.34%)
+       974,917,255      stalled-cycles-backend    #    6.78% backend  cycles idle     (66.68%)
+    27,599,468,607      instructions              #    1.92  insns per cycle        
+                                                  #    0.05  stalled cycles per insn  (83.34%)
+     6,717,640,864      branches                  # 1235.621 M/sec                    (83.34%)
+        78,056,586      branch-misses             #    1.16% of all branches          (83.33%)
+
+       5.433220727 seconds time elapsed
+
