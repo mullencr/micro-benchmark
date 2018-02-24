@@ -14,3 +14,5 @@ NOTE: If you want to run this yourself and replicate my results, be sure to reme
 g++ -g -Wall -std=c++14 -O3 homework3.cpp -o hw3
 ```
 It is suggested that you use "hw3" for the executable name to ensure compatibility with the bash scripts.
+
+***For full analysis, profiler screenshots, and results/conclusions, see mullencr.pdf.***
